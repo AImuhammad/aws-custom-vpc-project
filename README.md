@@ -1,74 +1,105 @@
-# AWS Custom VPC Project
+# AWS Custom VPC with Public and Private EC2
 
-## Objective
+## Project Overview
 
-Design and deploy a custom Virtual Private Cloud (VPC) in AWS with secure network segmentation.
+This project demonstrates how to build a secure AWS network using Amazon VPC. The infrastructure includes public and private subnets, an Internet Gateway, route tables, security groups, and EC2 instances. An Apache web server is deployed on the public EC2 instance, while a private EC2 instance is accessible only through the public EC2.
 
-## Services Used
+---
+
+## Architecture
+
+### Components
+
+- Custom VPC (10.0.0.0/16)
+- Public Subnet (10.0.1.0/24)
+- Private Subnet (10.0.2.0/24)
+- Internet Gateway
+- Public Route Table
+- Private Route Table
+- Public EC2
+- Private EC2
+- Apache Web Server
+
+---
+
+## AWS Services Used
 
 - Amazon VPC
 - Amazon EC2
 - Internet Gateway
 - Route Tables
 - Security Groups
+- SSH
+- Apache HTTP Server
 
-## Architecture
+---
 
-The infrastructure includes:
-
-- Public Subnet
-- Private Subnet
-- Internet Gateway
-- Route Tables
-- Public EC2 Instance
-- Private EC2 Instance
-
-## Project Progress
+## Project Workflow
 
 - ✅ Created Custom VPC
-- ✅ Public Subnet
-- ✅ Private Subnet
-- ✅ Internet Gateway
-- ✅ Route Tables
-- ✅ Public EC2 Instance
-- ✅ Private EC2 Instance
-- ✅ Connectivity Testing
-- ✅ Apache Web Server
+- ✅ Created Public Subnet
+- ✅ Created Private Subnet
+- ✅ Attached Internet Gateway
+- ✅ Configured Route Tables
+- ✅ Launched Public EC2
+- ✅ Launched Private EC2
+- ✅ Connected using SSH
+- ✅ Installed Apache
+- ✅ Hosted Website Successfully
+
+---
 
 ## Screenshots
 
 ### Custom VPC
 
-![Custom VPC](screenshots/vpc-created.png)
+![VPC](screenshots/01-vpc-created.png)
 
- ## Lessons Learned
+### Public Subnet
 
-- Learned how to create a custom VPC.
-- Understood how CIDR blocks define network ranges.
-- Learned why a VPC is the foundation of AWS networking.
+![Public Subnet](screenshots/02-public-subnet.png)
 
-### Public Route Table
+### Private Subnet
 
-![Public Route Table](screenshots/05-public-route-table.png)
+![Private Subnet](screenshots/03-private-subnet.png)
 
-### Private Route Table
+### Internet Gateway
 
-![Private Route Table](screenshots/06-private-route-table.png)
-
-### Public EC2
-
-![Public EC2](screenshots/07-public-ec2.png)
-
-### Private EC2
-
-![Private EC2](screenshots/08-private-ec2.png)
-
-### SSH to Private EC2
-
-![SSH to Private EC2](screenshots/10-ssh-private-ec2.png)
+![Internet Gateway](screenshots/04-internet-gateway.png)
 
 ### Apache Web Server
 
-![Apache Web Server](screenshots/11-apache-web-server.png)
-## Status
-🚧 Project in Progress
+![Apache](screenshots/11-apache-web-server.png)
+
+---
+
+## Lessons Learned
+
+During this project I learned:
+
+- How Amazon VPC networking works.
+- The difference between public and private subnets.
+- How Internet Gateways provide internet connectivity.
+- How route tables control network traffic.
+- How to deploy EC2 instances into different subnets.
+- How to connect securely using SSH.
+- How to install and configure Apache on Amazon Linux.
+
+---
+
+## Skills Demonstrated
+
+- AWS Networking
+- Amazon EC2
+- Linux Administration
+- SSH
+- Apache Web Server
+- Git
+- GitHub
+- Infrastructure Documentation
+
+---
+
+## Project Status
+
+✅ Completed
