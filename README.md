@@ -30,8 +30,8 @@ The infrastructure includes:
 - ⏳ Private Subnet
 - ✅ Internet Gateway
 - ✅ Route Tables
-- ⏳ Public EC2 Instance
-- ⏳ Private EC2 Instance
+- ✅ Public EC2 Instance
+- ✅ Private EC2 Instance
 - ⏳ Connectivity Testing
 
 ## Screenshots
@@ -53,6 +53,14 @@ The infrastructure includes:
 ### Private Route Table
 
 ![Private Route Table](screenshots/06-private-route-table.png)
+
+### Public EC2
+
+![Public EC2](screenshots/07-public-ec2.png)
+
+### Private EC2
+
+![Private EC2](screenshots/08-private-ec2.png)
 
 ## Status
 🚧 Project in Progress
