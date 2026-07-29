@@ -28,7 +28,7 @@ The infrastructure includes:
 - ✅ Created Custom VPC
 - ⏳ Public Subnet
 - ⏳ Private Subnet
-- ⏳ Internet Gateway
+- ✅ Internet Gateway
 - ⏳ Route Tables
 - ⏳ Public EC2 Instance
 - ⏳ Private EC2 Instance
