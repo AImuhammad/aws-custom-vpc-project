@@ -26,13 +26,13 @@ The infrastructure includes:
 ## Project Progress
 
 - ✅ Created Custom VPC
-- ⏳ Public Subnet
-- ⏳ Private Subnet
+- ✅ Public Subnet
+- ✅ Private Subnet
 - ✅ Internet Gateway
 - ✅ Route Tables
 - ✅ Public EC2 Instance
 - ✅ Private EC2 Instance
-- ⏳ Connectivity Testing
+- ✅ Connectivity Testing
 
 ## Screenshots
 
@@ -40,7 +40,7 @@ The infrastructure includes:
 
 ![Custom VPC](screenshots/vpc-created.png)
 
-## Lessons Learned
+ ## Lessons Learned
 
 - Learned how to create a custom VPC.
 - Understood how CIDR blocks define network ranges.
@@ -62,5 +62,8 @@ The infrastructure includes:
 
 ![Private EC2](screenshots/08-private-ec2.png)
 
+### SSH to Private EC2
+
+![SSH to Private EC2](screenshots/10-ssh-private-ec2.png)
 ## Status
 🚧 Project in Progress
