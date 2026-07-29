@@ -33,6 +33,7 @@ The infrastructure includes:
 - ✅ Public EC2 Instance
 - ✅ Private EC2 Instance
 - ✅ Connectivity Testing
+- ✅ Apache Web Server
 
 ## Screenshots
 
@@ -65,5 +66,9 @@ The infrastructure includes:
 ### SSH to Private EC2
 
 ![SSH to Private EC2](screenshots/10-ssh-private-ec2.png)
+
+### Apache Web Server
+
+![Apache Web Server](screenshots/11-apache-web-server.png)
 ## Status
 🚧 Project in Progress
