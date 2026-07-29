@@ -29,7 +29,7 @@ The infrastructure includes:
 - ⏳ Public Subnet
 - ⏳ Private Subnet
 - ✅ Internet Gateway
-- ⏳ Route Tables
+- ✅ Route Tables
 - ⏳ Public EC2 Instance
 - ⏳ Private EC2 Instance
 - ⏳ Connectivity Testing
@@ -46,6 +46,13 @@ The infrastructure includes:
 - Understood how CIDR blocks define network ranges.
 - Learned why a VPC is the foundation of AWS networking.
 
-## Status
+### Public Route Table
 
+![Public Route Table](screenshots/05-public-route-table.png)
+
+### Private Route Table
+
+![Private Route Table](screenshots/06-private-route-table.png)
+
+## Status
 🚧 Project in Progress
